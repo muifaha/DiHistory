@@ -1,0 +1,242 @@
+Using pre-set license
+Built from '2020.2/staging' branch; Version is '2020.2.7f1 (c53830e277f1) revision 12924976'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 10 Pro; OS build 19042.906; Version 2009; 64bit' Language: 'en' Physical Memory: 16310 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+ COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+D:/Digital History
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+63086
+Successfully changed project path to: D:/Digital History
+D:/Digital History
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 233.92 ms, found 2 plugins.
+Preloading 1 native plugins for Editor in 1.40 ms.
+Initialize engine version: 2020.2.7f1 (c53830e277f1)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path D:/Digital History/Assets
+GfxDevice: creating device client; threaded=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: Radeon RX 5500 XT (ID=0x7340)
+    Vendor:   
+    VRAM:     8151 MB
+    Driver:   27.20.15003.1004
+Shader 'PointClouds/PointSplat': fallback shader 'PointClouds/PointSplatLegacy' not found
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'C:/Program Files/Unity/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56048
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.002968 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 26.96 ms, found 2 plugins.
+Preloading 1 native plugins for Editor in 0.03 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.411 seconds
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.081518 seconds.
+Begin MonoManager ReloadAssembly
+OnLevelWasLoaded was found on FadeEffectScene
+This message has been deprecated and will be removed in a later version of Unity.
+Add a delegate to SceneManager.sceneLoaded instead to get notifications after scene loading has completed
+
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.46 ms, found 2 plugins.
+Preloading 1 native plugins for Editor in 0.03 ms.
+System.NullReferenceException: Object reference not set to an instance of an object
+  at Vuforia.EditorClasses.ExtensionTypeProvider.GetVuforiaPackageAbsPath () [0x0004a] in <d3e3611e09164266b01b2e2ee0bae4b4>:0 
+  at Vuforia.EditorClasses.ExtensionTypeProvider.IsPackageManager () [0x00000] in <d3e3611e09164266b01b2e2ee0bae4b4>:0 
+  at Vuforia.EditorClasses.ExtensionTypeProvider.ResolvePluginType () [0x00009] in <d3e3611e09164266b01b2e2ee0bae4b4>:0 
+  at Vuforia.EditorClasses.ExtensionTypeProvider.GetPluginType () [0x0000c] in <d3e3611e09164266b01b2e2ee0bae4b4>:0 
+  at Vuforia.EditorClasses.VuforiaUtilities.IsVuforiaEnabledInPlayerSettings () [0x00000] in <d3e3611e09164266b01b2e2ee0bae4b4>:0 
+  at VuforiaEnabledObserver..cctor () [0x00000] in <d3e3611e09164266b01b2e2ee0bae4b4>:0 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+System.NullReferenceException: Object reference not set to an instance of an object
+  at Vuforia.EditorClasses.ExtensionTypeProvider.GetVuforiaPackageAbsPath () [0x0004a] in <d3e3611e09164266b01b2e2ee0bae4b4>:0 
+  at Vuforia.EditorClasses.ExtensionTypeProvider.IsPackageManager () [0x00000] in <d3e3611e09164266b01b2e2ee0bae4b4>:0 
+  at Vuforia.EditorClasses.ExtensionTypeProvider.ResolvePluginType () [0x00009] in <d3e3611e09164266b01b2e2ee0bae4b4>:0 
+  at Vuforia.EditorClasses.ExtensionTypeProvider.GetPluginType () [0x0000c] in <d3e3611e09164266b01b2e2ee0bae4b4>:0 
+  at Vuforia.EditorClasses.VuforiaUtilities.IsVuforiaEnabledInPlayerSettings () [0x00000] in <d3e3611e09164266b01b2e2ee0bae4b4>:0 
+  at Vuforia.EditorClasses.InitializeOnLoadVuforiaTaskRunner..cctor () [0x00015] in <d3e3611e09164266b01b2e2ee0bae4b4>:0 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.135 seconds
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Shader 'PointClouds/PointSplat': fallback shader 'PointClouds/PointSplatLegacy' not found
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
+Refreshing native plugins compatible for Editor in 0.45 ms, found 2 plugins.
+Preloading 1 native plugins for Editor in 0.03 ms.
+Unloading 1316 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 68.8 MB.
+System memory in use after: 68.9 MB.
+
+Unloading 37 unused Assets to reduce memory usage. Loaded Objects now: 2019.
+Total: 1.442500 ms (FindLiveObjects: 0.172000 ms CreateObjectMapping: 0.048200 ms MarkObjects: 1.165500 ms  DeleteObjects: 0.056000 ms)
+
+========================================================================
+Received Import Request.
+  path: Assets/Video/tum1-01.png
+  artifactKey: Guid(accd9031d7aed4f61b13a1d277308ed7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Video/tum1-01.png using Guid(accd9031d7aed4f61b13a1d277308ed7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a51987987e13a971acdf104775c063bc') in 0.132936 seconds
+  Import took 0.135102 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000171 seconds.
+  path: Assets/Video/tum 2-01.png
+  artifactKey: Guid(bd38a6e6e1b8344d381a1ed212a33275) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Video/tum 2-01.png using Guid(bd38a6e6e1b8344d381a1ed212a33275) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3c36df0dfd70df6d11003ee9d67855cc') in 0.010176 seconds
+  Import took 0.012160 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000122 seconds.
+  path: Assets/Video/Informasi Gereja Blenduk Semarang.mp4
+  artifactKey: Guid(93b6b4fd2cfe50a4a8d980b8ed74cae2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Video/Informasi Gereja Blenduk Semarang.mp4 using Guid(93b6b4fd2cfe50a4a8d980b8ed74cae2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f0714dec41173c954ec1e9538abb4073') in 0.005974 seconds
+  Import took 0.007757 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000142 seconds.
+  path: Assets/Video/VideoRender1.renderTexture
+  artifactKey: Guid(0c5e497b5a6fc3a4bb1e2e9e48a3ce3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Video/VideoRender1.renderTexture using Guid(0c5e497b5a6fc3a4bb1e2e9e48a3ce3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e6be4e5549864056c34b967cf9f2209d') in 0.021094 seconds
+  Import took 0.022825 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000147 seconds.
+  path: Assets/Video/New Material.mat
+  artifactKey: Guid(8d469ed802ee89440852e57dc4dee128) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Video/New Material.mat using Guid(8d469ed802ee89440852e57dc4dee128) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4ab4d64a3491bfba7f6ad133d2a915a9') in 0.176108 seconds
+  Import took 0.186908 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000159 seconds.
+  path: Assets/Video/VideoMat.mat
+  artifactKey: Guid(b0069a64bc01ccc4991ac9b65ae4583f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Video/VideoMat.mat using Guid(b0069a64bc01ccc4991ac9b65ae4583f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f94351313151306de0b216a70adc003c') in 0.015482 seconds
+  Import took 0.017503 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000156 seconds.
+  path: Assets/Video/VideoRender2.renderTexture
+  artifactKey: Guid(83ce1121545c6694f9ffb3e623772f17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Video/VideoRender2.renderTexture using Guid(83ce1121545c6694f9ffb3e623772f17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7e8a8994b68c62d71f4a3d3e57dfda80') in 0.019934 seconds
+  Import took 0.022007 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 40.867430 seconds.
+  path: Assets/Video/blenduk.png
+  artifactKey: Guid(249d98a31c955fe4fbe5755c4b98178d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Video/blenduk.png using Guid(249d98a31c955fe4fbe5755c4b98178d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '62b19ee9e81e5d377a81151c3231b907') in 0.012036 seconds
+  Import took 0.014047 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 9.323581 seconds.
+  path: Assets/Video/blenduk.png
+  artifactKey: Guid(249d98a31c955fe4fbe5755c4b98178d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Video/blenduk.png using Guid(249d98a31c955fe4fbe5755c4b98178d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '278346c25fc2d9d5ca57741b9870037f') in 0.011746 seconds
+  Import took 0.013744 seconds .
+
+========================================================================
+Received Prepare
+Shader 'PointClouds/PointSplat': fallback shader 'PointClouds/PointSplatLegacy' not found
+Refreshing native plugins compatible for Editor in 4.38 ms, found 2 plugins.
+Preloading 1 native plugins for Editor in 0.03 ms.
+Unloading 31 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 45.4 MB.
+System memory in use after: 45.5 MB.
+
+Unloading 30 unused Assets to reduce memory usage. Loaded Objects now: 2067.
+Total: 1.778300 ms (FindLiveObjects: 0.177200 ms CreateObjectMapping: 0.033000 ms MarkObjects: 1.546500 ms  DeleteObjects: 0.020400 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 264.263998 seconds.
+  path: Assets/Video/blenduk 1.png
+  artifactKey: Guid(5dd38c5bca7188a458300055bc4248e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Video/blenduk 1.png using Guid(5dd38c5bca7188a458300055bc4248e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3ecaf34b3f223a1b5f78fdb705282c45') in 0.013761 seconds
+  Import took 0.015995 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 19.184851 seconds.
+  path: Assets/Video/blenduk 1.png
+  artifactKey: Guid(5dd38c5bca7188a458300055bc4248e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Video/blenduk 1.png using Guid(5dd38c5bca7188a458300055bc4248e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '197125029bcafd8e49ec93a338682e6f') in 0.015259 seconds
+  Import took 0.017350 seconds .
+
+========================================================================
+Received Prepare
+Shader 'PointClouds/PointSplat': fallback shader 'PointClouds/PointSplatLegacy' not found
+Refreshing native plugins compatible for Editor in 4.38 ms, found 2 plugins.
+Preloading 1 native plugins for Editor in 0.03 ms.
+Unloading 31 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 45.4 MB.
+System memory in use after: 45.5 MB.
+
+Unloading 30 unused Assets to reduce memory usage. Loaded Objects now: 2067.
+Total: 1.823700 ms (FindLiveObjects: 0.158000 ms CreateObjectMapping: 0.033300 ms MarkObjects: 1.620400 ms  DeleteObjects: 0.011500 ms)
+
+========================================================================
+Received Prepare
+Shader 'PointClouds/PointSplat': fallback shader 'PointClouds/PointSplatLegacy' not found
+Refreshing native plugins compatible for Editor in 4.35 ms, found 2 plugins.
+Preloading 1 native plugins for Editor in 0.03 ms.
+Unloading 31 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 45.4 MB.
+System memory in use after: 45.5 MB.
+
+Unloading 30 unused Assets to reduce memory usage. Loaded Objects now: 2067.
+Total: 1.911000 ms (FindLiveObjects: 0.175200 ms CreateObjectMapping: 0.035400 ms MarkObjects: 1.686200 ms  DeleteObjects: 0.013500 ms)
+
+========================================================================
+Received Prepare
+Shader 'PointClouds/PointSplat': fallback shader 'PointClouds/PointSplatLegacy' not found
+Refreshing native plugins compatible for Editor in 4.31 ms, found 2 plugins.
+Preloading 1 native plugins for Editor in 0.03 ms.
+Unloading 31 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 45.4 MB.
+System memory in use after: 45.5 MB.
+
+Unloading 30 unused Assets to reduce memory usage. Loaded Objects now: 2067.
+Total: 1.794900 ms (FindLiveObjects: 0.213600 ms CreateObjectMapping: 0.045000 ms MarkObjects: 1.521400 ms  DeleteObjects: 0.013900 ms)
+
